@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Product</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <center><img src="images/admin-icon.png" alt="adminicon" id="image">
+            <br>Meraki Clothing Brand</center>
+        </div>
+        <div class="main-content">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="/admin/posts/index.html">Manage posts</a></li>
+                    <li><a href="/admin/posts/users/index.html">Manage users</a></li>
+                    <li><a href="index.html">Manage products</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="button-group">
+                    <a href="create.html" class="btn btn-big">Add Product</a>
+                    <a href="index.html" class="btn btn-big">Manage Product</a>
+                </div>
+                
+                <div class="content1">
+                    <h2 class="page-title">Add Product</h2>
+                    <form action="/admin/posts/create.html" method="post">
+                    <div>
+                        <label>Product ID</label>
+                        <input type="text" name="title" class="text-input">
+                    <div>
+                        <label>Name</label>
+                        <input type="text" name="title" class="text-input">
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <input type="text" name="title" class="text-input">
+                    </div>
+                    <div>
+                        <label>Category ID</label>
+                        <input type="text" name="title" class="text-input">
+                    </div>
+                    <div>
+                        <label>Image Path</label>
+                        <input type="text" name="title" class="text-input">
+                    </div>
+                    <div>
+                        <label>Price</label>
+                        <input type="number" name="title" class="text-input">
+                    </div>
+                    <div>
+                        <label>Type</label>
+                        <select name="type" class="text-input">
+                            <option value="Featured">Featured</option>
+                            <option value="Not Featured">Not Featured</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-big">Add Product</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+       </body>
+</html>
